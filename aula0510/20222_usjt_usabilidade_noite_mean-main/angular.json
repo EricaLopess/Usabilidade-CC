@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "NeanProjeto": {
+    "projetomean": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/nean-projeto",
+            "outputPath": "dist/projetomean",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "NeanProjeto:build:production"
+              "browserTarget": "projetomean:build:production"
             },
             "development": {
-              "browserTarget": "NeanProjeto:build:development"
+              "browserTarget": "projetomean:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "NeanProjeto:build"
+            "browserTarget": "projetomean:build"
           }
         },
         "test": {
@@ -101,6 +101,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "dbf7a12d-d2e8-4efd-80bd-89905e81902a"
   }
 }
